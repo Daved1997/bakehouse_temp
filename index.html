@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		@font-face{
+			font-family: 'nunito_bold';
+			src:url(fonts/Nunito-Bold.ttf);
+		}
+		@font-face{
+			font-family: 'poppins_bold';
+			src:url(fonts/Poppins-Bold.ttf);
+		}
+		@font-face{
+			font-family: 'poppins_r';
+			src:url(fonts/Poppins-Regular.ttf);
+		}
+		@font-face{
+			font-family: 'poppins_semibold';
+			src:url(fonts/Poppins-SemiBold.ttf);
+		}
+		body {
+			width: 100%;
+			background-color: #C4EDFF;
+		  background-image: url("img/bg.png");
+		  background-position: absolute;
+		  background-size: 25%;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="navdiv">
+		<div class="navdiv_logo">
+			<img src="img/yourlogo.png">
+		</div>
+		<div class="navdiv1">			
+			<a href="#">HOME</a>
+			<a href="#section2">UPCOMING TREATS</a>
+			<a href="#section4">ABOUT</a>
+			<a href="#section5">CONTACT</a>
+		</div>	
+
+		<div id="mySidenav" class="sidenav">
+			<div class="side-nav-close" class="closebtn" style="" onclick="closeNav()">
+				<div class="side-nav-icon-first"></div>
+				<div class="side-nav-icon-second"></div>
+			</div>
+			  <a href="index.html" class="side-about">HOME</a><br>
+			  <a href="#section2">UPCOMING TREATS</a><br>
+			  <a href="#section4">ABOUT</a><br>
+			  <a href="#section5">CONTACT Us</a><br>
+		</div>
+		<div class="nav-wrapper">
+			<div class="side-nav-icon" onclick="openNav()">
+				<center>
+					<div class="side-nav-icon-first">
+					</div>
+					<div class="side-nav-icon-second">
+					</div>
+				</center>
+			</div>
+		</div>	
+	</div>
+	<section class="section1">
+		<img src="img/bg_sec1.png" class="section1_img">
+		<div class="sec1div1">
+			<div class="sec1div1_img">
+				<img src="img/sec1div1_img.png">
+			</div>
+			<div class="sec1div1_text">
+				<h3>DELICIOUS<br>CAKE</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				<button id="section2">BOOK NOW!</button>
+			</div>
+		</div>
+	</section>
+	<section class="section2">
+		<center>
+			<h3 class="sec2_haading">MY PRODUCTS</h3>
+		</center>
+			<div id="mainWrapper">
+			  <div id="cardsWrapper">
+			    
+			    <div class="card">
+			      <div class="image first">
+			      	<img src="img/sec2_img1.png">
+			        <div class="screen"></div>
+			        <div class="text">
+			            <p>Product_1</p>
+			        </div>
+			      </div>
+			    </div>
+			    
+			    <div class="card">
+			      <div class="image second">
+			      	<img src="img/sec2_img2.png">
+			        <div class="screen"></div>
+			        <div class="text">
+			            <p>Product_2</p>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="card">
+			      <div class="image third">
+			      	<img src="img/sec2_img3.png">
+			        <div class="screen"></div>
+			        <div class="text">
+			            <p>Product_3</p>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="card">
+			      <div class="image fourth">
+			      	<img src="img/sec2_img4.png">
+			        <div class="screen"></div>
+			        <div class="text">
+			            <p>Product_4</p>
+			        </div>
+			      </div>
+			    </div>
+			    
+			  </div>  
+			</div>
+	</section>
+	<section class="section3">
+		<div class="sec3div1">
+			<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+			  <div class="gallery-cell"><img src="img/slid_img2.png"></div>
+			  <div class="gallery-cell"><img src="img/slid_img1.png"></div>
+			  <div class="gallery-cell"><img src="img/slid_img3.png"></div>
+			  <div class="gallery-cell"><img src="img/slid_img2.png"></div>
+			  <div class="gallery-cell"><img src="img/slid_img1.png"></div>
+			</div>
+		</div>
+		<div class="sec3div2">
+			<h3>COMING soon</h3>
+			<h4>Product Description.....</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+	</section>
+	<section class="section4" id="section4">
+		<div class="sec4main">
+			<div class="sec4div1">
+				<img src="img/sec4_img1.png">
+			</div>
+			<div class="sec4div2">
+				<div style="display: flex;">
+					<div class="sec4div2_1">
+						<img src="img/sec4_img2.png">
+					</div>
+					<div class="sec4div2_3">
+						<h3>ABOUT</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					</div>
+				</div>
+				<div class="sec4div2_2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  do eiusmod.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  do eiusmod.</p>
+				</div>
+			</div>
+		</div>
+		<div class="division"></div>
+	</section>
+	<section class="section5" id="section5">
+		<center>
+			<h3 class="sec5heading">CONTACT US</h3>
+		</center>
+		<div class="sec5div1">
+			<div class="sec5div1_1">
+				<h3>Submit<br>your idea<br>the way you want your<br>product.....</h3>
+				<div style="display: flex; margin-left: 5%;">
+					<div class="sec5div1_1_img"><img src="img/facebook_e.png"></div>
+					<div class="sec5div1_1_img"><img src="img/instagram_e.png"></div>
+					<div class="sec5div1_1_img"><img src="img/twitter_e.png"></div>
+				</div>
+			</div>
+			<div class="sec5div1_2">
+				<input type="text" name="username" placeholder="Enter Your Full Name.......">
+				<input type="text" name="e-mail" placeholder="Enter Your Mail Id......">
+				<input type="text" name="title" placeholder="Which Product You need......">
+				<textarea name="describe" placeholder="Describe What You Needed......"></textarea>
+				<button type="submit" name="submit">SEND E-MAIL</button>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="footerdiv">
+			<div class="footerdiv_left">
+				<img src="img/yourlogowhite.png">
+				<h3>Your Address<br>Location...</h3>
+				<p>Copyright &#169;2020 | All rights reserved | Designed by <a href="https://groomdesigns.com/">Groom</a></p>
+			</div>
+			<div class="footerdiv_right">
+				<p>PHONE<br>+30 925 1366 0395<br><br>E-MAIL<br>mail@mail.com<br><br>OPENING HOURS<br>Mon &#64;: 9:00 am  6:00 pm<br>Sat &#64;:: 11:00 am  4:00 pm</p>
+			</div>
+		</div>
+		
+	</section>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    var card = $(".card");
+    card.on('mousemove', function (e) {
+        var x = e.clientX - $(this).offset().left + $(window).scrollLeft();
+        var y = e.clientY - $(this).offset().top + $(window).scrollTop();
+        
+        var rY = map(x, 0, $(this).width(), -17, 17);
+        var rX = map(y, 0, $(this).height(), -17, 17);
+    
+        $(this).children(".image").css("transform", "rotateY(" + rY + "deg)" + " " + "rotateX(" + -rX + "deg)");
+    });
+        
+    function map(x, in_min, in_max, out_min, out_max)
+    {
+        return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+    }
+});
+</script>
+<script>
+	
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "40vw";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0px";
+}
+</script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
